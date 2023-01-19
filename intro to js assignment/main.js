@@ -12,30 +12,25 @@ function oddEven (number){
 oddEven(numbers);
 
 //checking for the longest word in a string variable
-//spliting the string into an array
+
+function findLongest (str){
+    let splitStr = str.split(' ');
+    let longest = splitStr.sort(function(a, b){
+        return b.length - a.length;
+    });
+console.log(` the longest word in the string is "${longest[0]}"`);
+}
+
+findLongest("Web Development Tutorial")
 
 
 
-// function checkLongest(str){
-
-//     var strSplit = str.split(' ');
-//   var longestWord = 0;
-//   for(var i = 0; i < strSplit.length; i++){
-//     if(strSplit[i].length > longestWord){
-// 	longestWord = strSplit[i].length;
-//      }
-//   }
-//   document.write(longestWord);
-    
-// }
-// checkLongest("Web Development Tutorial");
-
-
+//last item in an aray and number of elements in an array
 
 let cars = ["bema", "benzo", "volvo", "supra", "crown"];
 let lastItem = cars.slice(-1);
-console.log(`the last item in the cars array is ${lastItem}`);
-console.log(` the cars array has ${cars.length} elements`);
+console.log(`Last item in the cars array is ${lastItem}`);
+console.log(`Cars array has ${cars.length} elements`);
 
 // adding a property in an object
 
