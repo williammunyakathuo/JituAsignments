@@ -72,32 +72,32 @@ button{
 .mobile{
     display: none;
     border-radius: 10px 10px 0 0;
+    /* height: 100%; */
+    width: 360px;
 }
-@media (max-width:400px) {
-   body{
-    display: grid;
-   }
-   
+@media (max-width:375px) {
+    body{
+        padding: 10px;
+        display: grid;
+    }
     .desktop{
         display: none;
-    }
+    } 
     .maincontent{
-        width: 95%;
-        height: fit-content;
+        justify-content: start;
+        width: 375px;
         margin: 10px;
+        grid-template-rows: 200px;
     }
     .mobile{
-        display: block;
-       
-    }
-    .image{
+        display: block; 
         grid-column: 1/2;
-        width: 100% ;
+
     }
     .details{
-        height: fit-content;
-        border-radius: 0 0 10px 10px;
+        border-radius: 0 0 10px 10px ; 
         grid-column: 1/2;
+        margin-top: -179px;
     }
-
+  
 }
