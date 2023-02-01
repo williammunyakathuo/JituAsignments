@@ -1,0 +1,35 @@
+.App{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.itempreview{
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #ECF9FF;
+  width:500px;
+  text-transform:capitalize;
+  border-radius: 10px;
+  box-shadow:  10px 10px 10px #F8CBA6;
+}
+.itempreview h2{
+  color:#913175;
+}
+
+.itempreview p{
+  color: #CD5888;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
