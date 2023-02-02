@@ -15,9 +15,8 @@
   padding: 10px 20px;
   background-color: #ECF9FF;
   width:500px;
-  text-transform:capitalize;
   border-radius: 10px;
-  box-shadow:  10px 10px 10px #F8CBA6;
+  box-shadow:  5px 5px 5px #F8CBA6;
 }
 .itempreview h2{
   color:#913175;
@@ -27,6 +26,36 @@
   color: #CD5888;
 }
 
+.header{
+  background-color: #913175;
+  color: #E9E8E8;
+  height: fit-content;
+  width: 500px;
+  padding: 20px;
+}
+.addnew{
+  background-color: #E9E8E8;
+  width: 70%;
+  border-radius : 5px;
+  height: 40px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.add{
+  border: 0 ;
+  width: 75%;
+  padding: 0 5px;
+  
+  border-radius : 5px 0 0 5px;
+}
+button{
+  outline: none;
+ background-color: #CD5888;
+ width: 25%;
+ border: 0;
+ border-radius : 0 5px 5px 0;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
